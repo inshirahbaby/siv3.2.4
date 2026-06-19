@@ -95,6 +95,7 @@ ON CONFLICT DO NOTHING;
 -- CUSTOMERS
 -- ============================================================
 INSERT INTO customers (id, code, name, type, company_name, phone, city, credit_limit, credit_days, outstanding_balance, total_purchases) VALUES
+  ('00000000-0000-0000-0000-000000000001', 'WALK-IN', 'Walk-in Customer', 'retail', null, null, null, 0, 0, 0, 0),
   ('66000000-0000-0000-0000-000000000001', 'CUS-001', 'ABC Builders', 'builder', 'ABC Builders & Developers', '01711100001', 'Dhaka', 500000, 30, 250000, 3500000),
   ('66000000-0000-0000-0000-000000000002', 'CUS-002', 'Rahman Construction', 'contractor', 'Rahman Construction Co.', '01711100002', 'Dhaka', 300000, 45, 120000, 2500000),
   ('66000000-0000-0000-0000-000000000003', 'CUS-003', 'XYZ Architects', 'architect', 'XYZ Architects & Design', '01811100003', 'Dhaka', 200000, 30, 85000, 1800000),
